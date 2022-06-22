@@ -1,85 +1,24 @@
-# template
+# Challenging Case 1
 
+## HE
 
+<iframe src="https://pathologyatlas.github.io/template/HE1.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
-**template for pathology atlas repositories**
+## HE
 
+<iframe src="https://pathologyatlas.github.io/template/HE2.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
+## Cam 5.2
 
+<iframe src="https://pathologyatlas.github.io/template/cam52.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
+# Calretinin
 
+<iframe src="https://pathologyatlas.github.io/template/calretinin.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
+# Beta-Catenin
 
+<iframe src="https://pathologyatlas.github.io/template/betacatenin.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
-> do not forget to activate github pages for the new repository
-
-
-
-
-```zsh
-
-vips dzsave HE.svs HE
-
-```
-
-
-
-
-```{r language template, echo=FALSE, include=TRUE}
-
-source("./R/language.R")
-
-```
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-## TemplateTR
-
-```
-
-
-
-
-```{asis, echo = (language == "EN")}
-
-## TemplateEN
-
-```
-
-
-
-
-```{asis, echo = (language == "TR")}
-
-**templateTR**
-
-
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
-
-```
-
-
-
-
-```{asis, echo = (language == "EN")}
-
-**templateEN**
-
-
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
-
-See Microscopy with viewer: 
-
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
-
-```
 
 
